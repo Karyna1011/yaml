@@ -1,0 +1,21 @@
+horizon:
+  endpoint: "SOME_VALID_ADDRESS"
+  signer: "G_ASSET_OWNER_SECRET_KEY"
+
+withdraw:
+  signer: "S_ASSET_OWNER_SECRET_KEY"
+
+
+rpc:
+  endpoint: "ETH_NODE_ADDRESS"
+
+transfer:
+  seed: "SECRET_SEED"
+  address: "SOURCE_ADDRESS"
+  confirmations: 20
+  gas_limit: 30000
+  gas_price: 20
+
+log:
+  level: debug
+  disable_sentry: true
